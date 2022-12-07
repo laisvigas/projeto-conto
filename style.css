@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Righteous', cursive;
+    --cor1: #411404;
+    --cor2: #a54f2a;
+    --cor3: #f9883d;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(imagens/vila.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+header > p {
+    color: var(--cor3);
+    text-align: right;
+    padding-right: 10px;
+    max-width: 700px;
+    margin: auto;
+    font-family: var(--font2);
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+header > p > a {
+    color: var(--cor3);
+}
+
+
+a {
+    color: rgb(120, 38, 16)
+}
+
+a:hover {
+    color: var(--cor2);
+    transition-duration: 1s;
+}
+
+nav {
+    background-color: #521707;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    max-width: 720px;
+    margin: auto;
+    text-align: center;
+    margin-block: 10px;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+
+nav:hover {
+    background-color: var(--cor1);
+}
+
+html, body {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+}
+
+h1 {
+    padding: 20px;
+    color: rgb(249, 136, 61);
+    max-width: 700px;
+    margin: auto;
+    font-family: var(--font2);
+}
+
+h5 {
+color: var(--cor3);
+text-align: right;
+padding-right: 10px;
+max-width: 700px;
+margin: auto;
+font-family: var(--font2);
+padding-bottom: 15px;
+}
+
+h5 > a {
+    color: var(--cor3);
+}
+
+h5 > a:hover {
+    color: var(--cor2);
+    transition-duration: 1s;
+}
+
+#texto {
+    text-align:justify;
+    margin: auto;
+    line-height: 1.7em;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.316);
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+    text-indent: 30px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#margem {
+    margin: 0px 20px 20px 20px;
+}
+
+#img1 {
+    background-image: url(imagens/bebe.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+}
+
+#img2 {
+    background-image: url(imagens/pessoas-vila.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+}
+
+
+footer {
+    background-color: var(--cor1);
+    text-align: center;
+    color: var(--cor3);
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+footer > p > a {
+    color: var(--cor3);
+}
+
+footer a:hover {
+    color: var(--cor2);
+    transition-duration: 1s;
+}
